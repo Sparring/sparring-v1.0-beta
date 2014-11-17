@@ -1,0 +1,445 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	position: absolute;
+	left: 50%;
+	top: 0px;
+	background-image: url(../Images/ALLPRODUCTS/backgroundallproducts.jpg);
+	height: 1500px;
+	width: 1676px;
+	margin-top: 0px;
+	margin-left: -840px;
+	background-repeat: no-repeat;
+}
+
+#Table_01 {
+	width: 960px;
+	height: 1500px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#top_ {
+	left: 0px;
+	top: 0px;
+	width: 960px;
+	height: 92px;
+	float: left;
+}
+
+#logo_ {
+	left: 0px;
+	top: 0px;
+	width: 121px;
+	height: 86px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#balkboven_ {
+	left: 121px;
+	top: 0px;
+	width: 839px;
+	height: 56px;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+#menu_ {
+	left: 121px;
+	top: 56px;
+	width: 800px;
+	height: 30px;
+	float: left;
+	background-image: url(../Images/HOME/menu.png);
+	background-repeat: no-repeat;
+}
+
+#naastmenu_ {
+	left: 921px;
+	top: 56px;
+	width: 39px;
+	height: 30px;
+	float: left;
+	background-image: url(../Images/HOME/naastmenu.png);
+	background-repeat: no-repeat;
+}
+
+#lijnondermenuwit_ {
+	left: 0px;
+	top: 86px;
+	width: 960px;
+	height: 7px;
+	float: left;
+	background-image: url(../Images/HOME/lijnondermenuwit.png);
+	background-repeat: no-repeat;
+}
+
+#banner_ {
+	left: 0px;
+	top: 92px;
+	width: 960px;
+	height: 320px;
+	float: left;
+	background-image: url(../Images/Bannerfotos/Header-Category_Community_980x545-01.jpg);
+	background-repeat: no-repeat;
+}
+
+#lijnonderbanner_ {
+	left: 0px;
+	top: 412px;
+	width: 960px;
+	height: 28px;
+	float: left;
+	background-image: url(../Images/ALLPRODUCTS/lijnonderbanner.png);
+	background-repeat: no-repeat;
+}
+
+#blauw_ {
+	left: 0px;
+	top: 440px;
+	width: 199px;
+	height: 480px;
+	float: left;
+	background-image: url(../Images/NATHANU/blauwnathanu.png);
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-right: 20px;
+	padding-bottom: 170px;
+}
+
+#titelproduct_ {
+	left: 244px;
+	top: 440px;
+	width: 706px;
+	height: 31px;
+	float: left;
+	background-image: url(../Images/ALLPRODUCTS/titelproduct.png);
+	background-repeat: no-repeat;
+	padding-top: 35px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+}
+
+#grijzeblokjesbalk_ {
+	left: 244px;
+	top: 507px;
+	width: 459px;
+	height: 21px;
+	float: left;
+	background-image: url(../Images/ALLPRODUCTS/grijzeblokjesbalk.png);
+	background-repeat: no-repeat;
+}
+
+#allproducts-07_ {
+	left: 703px;
+	top: 507px;
+	width: 21px;
+	height: 21px;
+	float: left;
+	background-image: url(../Images/ALLPRODUCTS/allproducts_07.png);
+	background-repeat: no-repeat;
+}
+
+#grijzeblokjesbalk008_ {
+	left: 724px;
+	top: 507px;
+	width: 236px;
+	height: 21px;
+	background-image: url(../Images/ALLPRODUCTS/grijzeblokjesbalk-08.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#maintekst_ {
+	left: 244px;
+	top: 440px;
+	width: 716px;
+	height: 560px;
+	float: left;
+	background-repeat: no-repeat;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#kolombox1_ {
+	left: 244px;
+	top: 440px;
+	width: 230px;
+	height: 382px;
+	float: left;
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+#kolombox2_ {
+	left: 244px;
+	top: 440px;
+	width: 230px;
+	height: 382px;
+	float: left;
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+#kolombox3_ {
+	left: 244px;
+	top: 440px;
+	width: 230px;
+	height: 382px;
+	float: left;
+	background-repeat: no-repeat;
+	text-align: right;
+}
+
+
+#balkonderfotos_ {
+	left: 0px;
+	top: 1475px;
+	width: 960px;
+	height: 34px;
+	background-repeat: no-repeat;
+	float: left;
+	background-color: #FFF;
+}
+
+
+#footerblok_ {
+	left: 0px;
+	top: 1087px;
+	width: 960px;
+	height: 422px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#balkgrijsoranjevanfooterboven_ {
+	left: 0px;
+	top: 1087px;
+	width: 960px;
+	height: 19px;
+	background-image: url(../Images/HOME/balkgrijsoranjevanfooterboven.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#footerfoto1_ {
+	left: 0px;
+	top: 1106px;
+	width: 300px;
+	height: 257px;
+	background-image: url(../Images/HOME/footerfoto1.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#geel1_ {
+	left: 300px;
+	top: 1106px;
+	width: 30px;
+	height: 257px;
+	background-image: url(../Images/HOME/geel1.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#footerfoto2_ {
+	left: 330px;
+	top: 1106px;
+	width: 300px;
+	height: 257px;
+	background-image: url(../Images/HOME/footerfoto2.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#geel2_ {
+	left: 630px;
+	top: 1106px;
+	width: 30px;
+	height: 257px;
+	background-image: url(../Images/HOME/geel2.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#footerfoto3_ {
+	left: 660px;
+	top: 1106px;
+	width: 300px;
+	height: 257px;
+	background-image: url(../Images/HOME/footerfoto3.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#geelbalkfooter_ {
+	left: 0px;
+	top: 1363px;
+	width: 960px;
+	height: 10px;
+	background-image: url(../Images/HOME/geelbalkfooter.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#footeronder_ {
+	left: 0px;
+	top: 1373px;
+	width: 840px;
+	height: 116px;
+	background-image: url(../Images/HOME/footeronder.png);
+	background-repeat: no-repeat;
+	float: left;
+	padding-top: 20px;
+	padding-left: 120px;
+}
+
+.maintekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #575656;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.maintekstvet {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #575656;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Hoofdtekstgrijsblok {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Tekstgrijsblokmain {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Hoofdfootertekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+	word-spacing: 0.4cm;
+}
+
+.Onderfootertekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: left;
+	word-spacing: 0.2cm;
+	text-transform: uppercase;
+}
+
+.copyright{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Producttitel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #484743;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Submenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Submenutop {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Tekstgrijsblokmainklein {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Oranjegroot {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #f8a01a;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.kruimelpad {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #289dde;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+

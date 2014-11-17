@@ -1,0 +1,514 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	position: absolute;
+	left: 50%;
+	top: 0px;
+	height: 1509px;
+	width: 1676px;
+	margin-top: 0px;
+	margin-left: -840px;
+	background-repeat: no-repeat;
+	background-image: url(../Images/HOME/backgroundhome.jpg);
+}
+
+#Table_01 {
+	width:960px;
+	height:1509px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#logo_ {
+	left: 0px;
+	top: 0px;
+	width: 121px;
+	height: 86px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#balkboven_ {
+	left: 121px;
+	top: 0px;
+	width: 839px;
+	height: 56px;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+#menu_ {
+	left: 121px;
+	top: 56px;
+	width: 800px;
+	height: 30px;
+	float: left;
+	background-image: url(../Images/HOME/menu.png);
+	background-repeat: no-repeat;
+}
+
+#naastmenu_ {
+	left: 921px;
+	top: 56px;
+	width: 39px;
+	height: 30px;
+	float: left;
+	background-image: url(../Images/HOME/naastmenu.png);
+	background-repeat: no-repeat;
+}
+
+#lijnondermenuwit_ {
+	left: 0px;
+	top: 86px;
+	width: 960px;
+	height: 7px;
+	float: left;
+	background-repeat: no-repeat;
+	background-color: #FFF;
+}
+
+#banner_ {
+	left: 0px;
+	top: 93px;
+	width: 960px;
+	height: 397px;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+#index-07_ {
+	left: 0px;
+	top: 490px;
+	width: 960px;
+	height: 18px;
+	background-image: url(../Images/HOME/voorstelsnijdenhome_07.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#grijs1_ {
+	left: 0px;
+	top: 508px;
+	width: 280px;
+	height: 70px;
+	float: left;
+	background-image: url(../Images/HOME/grijs1.png);
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+}
+
+#grijs2_ {
+	left: 330px;
+	top: 508px;
+	width: 280px;
+	height: 70px;
+	float: left;
+	background-image: url(../Images/HOME/grijs2.png);
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+}
+
+#grijs3_ {
+	left: 660px;
+	top: 508px;
+	width: 280px;
+	height: 70px;
+	background-image: url(../Images/HOME/grijs3.png);
+	background-repeat: no-repeat;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+#foto1_ {
+	left: 0px;
+	top: 598px;
+	width: 300px;
+	height: 161px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#wit1_ {
+	left: 300px;
+	top: 598px;
+	width: 30px;
+	height: 161px;
+	background-image: url(../Images/HOME/wit1.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#foto2_ {
+	left: 330px;
+	top: 598px;
+	width: 300px;
+	height: 161px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#wit2_ {
+	left: 630px;
+	top: 598px;
+	width: 30px;
+	height: 161px;
+	background-image: url(../Images/HOME/wit2.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#foto3_ {
+	left: 660px;
+	top: 598px;
+	width: 300px;
+	height: 161px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#balkonderfotoswit_ {
+	left: 0px;
+	top: 759px;
+	width: 960px;
+	height: 24px;
+	background-image: url(../Images/HOME/balkonderfotoswit.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#grijs4_ {
+	left: 0px;
+	top: 783px;
+	width: 280px;
+	height: 70px;
+	background-image: url(../Images/HOME/grijs4.png);
+	background-repeat: no-repeat;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+}
+
+#grijs5_ {
+	left: 330px;
+	top: 783px;
+	width: 280px;
+	height: 70px;
+	background-image: url(../Images/HOME/grijs5.png);
+	background-repeat: no-repeat;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+}
+
+#grijs6_ {
+	left: 660px;
+	top: 783px;
+	width: 270px;
+	height: 70px;
+	background-image: url(../Images/HOME/grijs6.png);
+	background-repeat: no-repeat;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+#foto4_ {
+	left: 0px;
+	top: 873px;
+	width: 300px;
+	height: 161px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#wit3_ {
+	left: 300px;
+	top: 873px;
+	width: 30px;
+	height: 161px;
+	background-image: url(../Images/HOME/wit3.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#foto5_ {
+	left: 330px;
+	top: 873px;
+	width: 300px;
+	height: 161px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#wit4_ {
+	left: 630px;
+	top: 873px;
+	width: 30px;
+	height: 161px;
+	background-image: url(../Images/HOME/wit4.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#foto6_ {
+	left: 660px;
+	top: 873px;
+	width: 300px;
+	height: 161px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#wittebalkonderfotos_ {
+	left: 0px;
+	top: 1034px;
+	width: 960px;
+	height: 53px;
+	background-image: url(../Images/HOME/wittebalkonderfotos.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#balkgrijsoranjevanfooterboven_ {
+	left: 0px;
+	top: 1087px;
+	width: 960px;
+	height: 19px;
+	background-image: url(../Images/HOME/balkgrijsoranjevanfooterboven.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#footerfoto1_ {
+	left: 0px;
+	top: 1106px;
+	width: 300px;
+	height: 257px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#geel1_ {
+	left: 300px;
+	top: 1106px;
+	width: 30px;
+	height: 257px;
+	background-image: url(../Images/HOME/geel1.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#footerfoto2_ {
+	left: 330px;
+	top: 1106px;
+	width: 300px;
+	height: 257px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#geel2_ {
+	left: 630px;
+	top: 1106px;
+	width: 30px;
+	height: 257px;
+	background-image: url(../Images/HOME/geel2.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#footerfoto3_ {
+	left: 660px;
+	top: 1106px;
+	width: 300px;
+	height: 257px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#geelbalkfooter_ {
+	left: 0px;
+	top: 1363px;
+	width: 960px;
+	height: 10px;
+	background-image: url(../Images/HOME/geelbalkfooter.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#footeronder_ {
+	left: 0px;
+	top: 1373px;
+	width: 820px;
+	height: 116px;
+	background-image: url(../Images/HOME/footeronder.png);
+	background-repeat: no-repeat;
+	float: left;
+	padding-top: 20px;
+	padding-left: 120px;
+	padding-right: 20px;
+}
+
+.maintekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #575656;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.maintekstvet {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #575656;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+
+
+.Hoofdtekstgrijsblok {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Tekstgrijsblokmain {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Hoofdfootertekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+	word-spacing: 0.4cm;
+}
+
+.Onderfootertekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: left;
+	word-spacing: 0.2cm;
+	text-transform: uppercase;
+}
+
+.copyright{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Producttitel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #484743;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Submenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Submenutop {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Tekstgrijsblokmainklein {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.Oranjegroot {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #f8a01a;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.kruimelpad {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #289dde;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
