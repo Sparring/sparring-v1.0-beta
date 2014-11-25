@@ -1573,6 +1573,7 @@ the specific language governing permissions and limitations under the Apache Lic
         // single
 
 		createContainer: function () {
+			if(this.opts.background == 'green'){
             var container = $(document.createElement("div")).attr({
                 "class": "select2-container"
             }).html([
@@ -1589,6 +1590,24 @@ the specific language governing permissions and limitations under the Apache Lic
                 "   </ul>" ,
                 "</div>"].join(""));
             return container;
+			}else{
+			var container = $(document.createElement("div")).attr({
+                "class": "select2-container"
+            }).html([
+                "<a href='javascript:void(0)' onclick='return false;' class='select2-choice select2-grey' tabindex='-1'>",
+                "   <span></span><abbr class='select2-search-choice-close' style='display:none;'></abbr>",
+                "   <div><b></b></div>" ,
+                "</a>",
+                "<input class='select2-focusser select2-offscreen' type='text'/>",
+                "<div class='select2-drop' style='display:none'>" ,
+                "   <div class='select2-search'>" ,
+                "       <input type='text' autocomplete='off' class='select2-input'/>" ,
+                "   </div>" ,
+                "   <ul class='select2-results'>" ,
+                "   </ul>" ,
+                "</div>"].join(""));
+            return container;
+			}
         },
 
         // single
@@ -1882,9 +1901,12 @@ the specific language governing permissions and limitations under the Apache Lic
                 if (this.select && this.select.find("option:first").text() !== "") return;
 
                 this.selection.find("span").html(this.opts.escapeMarkup(placeholder));
-
+				
+				if(this.opts.background == 'green'){
                 this.selection.addClass("select2-default");
-
+				}else{
+				this.selection.addClass("select2-default-grey");
+				}
                 this.selection.find("abbr").hide();
             }
         },
@@ -2042,6 +2064,7 @@ the specific language governing permissions and limitations under the Apache Lic
 
         // multi
         createContainer: function () {
+			if (this.opts.background == 'green') {
             var container = $(document.createElement("div")).attr({
                 "class": "select2-container select2-container-multi"
             }).html([
@@ -2055,6 +2078,21 @@ the specific language governing permissions and limitations under the Apache Lic
                 "   <ul class='select2-results'>" ,
                 "   </ul>" ,
                 "</div>"].join(""));
+			}else{
+			var container = $(document.createElement("div")).attr({
+                "class": "select2-container select2-container-multi"
+            }).html([
+                "    <ul class='select2-choices2'>",
+                //"<li class='select2-search-choice'><span>California</span><a href="javascript:void(0)" class="select2-search-choice-close"></a></li>" ,
+                "  <li class='select2-search-field'>" ,
+                "    <input type='text' autocomplete='off' class='select2-input'>" ,
+                "  </li>" ,
+                "</ul>" ,
+                "<div class='select2-drop select2-drop-multi' style='display:none;'>" ,
+                "   <ul class='select2-results'>" ,
+                "   </ul>" ,
+                "</div>"].join(""));
+			}
 			return container;
         },
 

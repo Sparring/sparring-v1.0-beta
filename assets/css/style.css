@@ -84,7 +84,7 @@ General backgrounds
 
 .bg-green {
   background-image: none !important;
-  background-color: #35aa47 !important;
+  background-color: #28b779 !important;
 }
 
 .bg-purple {
@@ -94,7 +94,8 @@ General backgrounds
 
 .bg-grey {
   background-image: none !important;
-  background-color: #555555 !important;
+  background-color: #F6F6F6 !important;
+  border:1PX solid #555555 !important;
 }
 
 /***
@@ -439,8 +440,7 @@ Header and header elements.
   right: 24px;
   text-align: center;
   height: 14px;
-  border:#fff solid 2px;
-  background-color: #FF0000;
+  background-color: #f76b1e;
   padding: 2px 6px 2px 6px;
   -webkit-border-radius: 12px !important;
      -moz-border-radius: 12px !important;
@@ -513,8 +513,9 @@ ul.page-sidebar-menu > li > a {
   text-decoration: none;
   font-size: 14px;
   font-weight: 300;
-  padding: 5px 10px !important;
+  padding: 2px 0px !important;
   background-color: #fff !important;
+  border-left:2px solid #fff;
   color: #1d943b !important;
 }
 
@@ -1663,11 +1664,11 @@ Mini chart containers
 Custom icon buttons
 ***/
 .icon-btn {
-  height: 70px;
+  /*height: 70px;*/
   width: 50px;
   margin: 10px 0px 10px 0px;
-  border: 1px solid #ddd;
-  padding: 16px 0px 0px 0px;
+  /*border: 1px solid #ddd;*/
+  padding: 0px 0px 0px 0px;
   background-color: #fafafa !important;
   background-image: none !important;
   filter:none !important;
@@ -1718,7 +1719,7 @@ Custom icon buttons
 }
 
 .icon-btn i {
-  font-size: 20px !important;
+  font-size: 12px !important;
   color: #777 !important;
 }
 
@@ -1735,7 +1736,7 @@ Custom icon buttons
   font-family: 'Open Sans';
   margin-top: 5px;
   margin-bottom: 20px;  
-  color: #000;
+  /*color: #000;*/
   font-size: 11px;
   font-weight: 300;
 }
@@ -4381,7 +4382,7 @@ jQuery UI Sliders(new in v1.1.1)
 }
 
 .slider {
-  border: 0 !important;
+  border: 1px solid #ccc !important;
 }
 
 .ui-slider-vertical,

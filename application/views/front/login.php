@@ -46,16 +46,19 @@
 	<div class="page-lock">
 		<div class="page-body">
            <div class="page-lock-info">
-                <h1>Masuk</h1>
-                <form class="form-search" action="<?php echo site_url('home/login') ?>" method="post">
+                <!--<h1>Masuk</h1>-->
+                <form class="form-search" action="<?php echo site_url('home/login') ?>" method="post" style="text-align:left !important">
+                	<div class="row-fluid">
                     <div class="control-group">
+                    	<label class="control-label">Email</label>
                         <div class="groups">
-                            <input type="text" class="" name="email" placeholder="Email">
+                            <input type="text" class="m-wrap span12" name="email" placeholder="Alamat email anda">
                         </div>
                     </div>
                     <div class="control-group">
+                    	<label class="control-label">Kata sandi</label>
                         <div class="groups">
-                            <input type="password" name="password" class="" placeholder="Password">
+                            <input type="password" name="password" class="m-wrap 	span12" placeholder="Kata sandi anda">
                         </div>
                     </div>
                     <div class="control-group">
@@ -63,28 +66,36 @@
                             <label class="checkbox">
                             	<input type="checkbox" name="keep" > Biarkan saya tetap masuk
                         	</label>
+                            	
                         </div>
                     </div>
                     <div class="control-group">
                         <div class="groups">
-                                <button type="submit" class="btn orange">Masuk</button>
+                            <button type="submit" class="btn orange span12">Masuk</button>    
                         </div>
                     </div>
-                    <div class="relogin">
-                            <a>Tidak bisa masuk ?</a>
+                    <div class="relogin span12">
+                            Saya tidak bisa masuk! <a href="">Bantu saya!</a>
+                    </div>
                     </div>
                 </form>
-                <h1>Daftar</h1>
+                <h4>Belum punya akun?</h4>
+                <div class="row-fluid">
                 <div class="control-group">
                     <div class="groups">
-                        <a href="<?php echo site_url('register'); ?>" class="btn orange">Daftar dengan email</a>
+                        <a href="<?php echo site_url('register'); ?>" class="btn green span12">Daftar dengan email</a>
                     </div>
                 </div>
-                <div class="relogin"><a>atau</a></div><br>
+                </div>
+                <div class="row-fluid">
+                <div class="relogin span12">atau</div>
+                </div>
+                <div class="row-fluid">
                 <div class="control-group">
                     <div class="groups">
-                        <a class="btn blue" href="<?php echo $login_url ?>">Daftar lewat Facebook</a>
+                        <a class="btn blue span12" href="<?php echo $login_url ?>">Daftar lewat Facebook</a>
                     </div>
+                </div>
                 </div>
             </div>
             <div class="page-lock-banner">
@@ -96,10 +107,9 @@
             	<img src="images/system/Graphic1.png" >
                 <br>
                 <br>
-                <p>Jenuh dengan lawan yang itu-itu aja?<br>
+                <p style="color:#CCC !important">Jenuh dengan lawan yang itu-itu aja?<br>
                 Pingin cari tantangan & temen baru?<br>
                 Cari tahu seberapa hebat kemampuan kamu</p>
-                <br>
                 <!--<h1>Welcome Broooo!!</h1>
                 <p>Jenuh dengn lawan yang itu-itu aja?</p>
                 <p>Pingin cari tantangan & temen baru?</p>
@@ -110,7 +120,10 @@
                 <p>Bangun tim bersama teman-temanmu <br> dan bermain dengan sportlover lainnya di kota mu</p>
                 <br>
                 <br>-->
-                <h2>&gt;&gt;&gt; <a href="" class="btn purple big">Apa itu Sparing.id?</a> &lt;&lt;&lt;</h2>
+                <h2><a href="" class="btn orange big">Apa itu ZonaTanding?</a></h2>
+                <div class="page-footer" style="color:#486f7a;text-align:center !important">
+			Tentang Kami | Cara Pengunaan | Syarat & Ketentuan | Pernyataan | 2013 &copy; Sparring.co.id.
+		</div>
             </div>
             <!--<div class="page-lock-info">
                 <h1>Daftar Sekarang!</h1>
@@ -151,9 +164,7 @@
             <img class="page-lock-img" src="assets/img/profile/profile.jpg" alt="">-->
 			
 		</div>
-		<div class="page-footer" style="color:#fff;text-align:center !important">
-			Tentang Kami | Cara Pengunaan | Syarat & Ketentuan | Pernyataan | 2013 &copy; Sparring.co.id.
-		</div>
+		
 	</div>
 	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 	<!-- BEGIN CORE PLUGINS -->

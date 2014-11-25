@@ -6,7 +6,7 @@ light theme
 Reset and overrides  
 ***/
 body {
-  background: #EEE !important;
+  /*background: #EEE !important;*/
 }
 /***
 Page header
@@ -14,19 +14,19 @@ Page header
 .header .navbar-inner {
   filter: none !important;
   background-image: none !important;
-  background-color: #FF9900 !important;
+  background-color: #0a6780 !important;
   box-shadow:0px 1px 3px #999999;
 }
 .header .btn-navbar {
-  background-color: #ff9900 !important;
+  background-color: #0a6780 !important;
   
 }
 .header .nav .dropdown-toggle:hover,
 .header .nav .dropdown.open .dropdown-toggle {
-  background-color: #FCB15F !important;
+  background-color: #4f8897 !important;
 }
 .header .nav li.dropdown .dropdown-toggle i {
-  color: #D56A00 !important;
+  color: #80adb9 !important;
 }
 /***
 Page sidebar
@@ -41,16 +41,16 @@ Page sidebar
 .page-sidebar-fixed .page-content {
   background: #FFF !important;
   border: 0 !important;
-  box-shadow:0px 1px 3px #999999;
-  padding-top:50px !important;
+  /*box-shadow:0px 1px 3px #999999;*/
+  padding-top:0px !important;
 }
 .page-sidebar-fixed .page-sidebar {
-  border-right: 1px solid #e2e2e2 !important;
+  /*border-right: 1px solid #e2e2e2 !important;*/
 }
 
 
 ul.page-sidebar-menu > li > a {
-  border-top: 1px solid #e2e2e2 !important;
+  /*border-top: 1px solid #e2e2e2 !important;*/
   color: #28b779 !important;
   font-weight: 400;
 }
@@ -69,10 +69,11 @@ ul.page-sidebar-menu > li a i {
 ul.page-sidebar-menu > li.open > a,
 ul.page-sidebar-menu > li > a:hover,
 ul.page-sidebar-menu > li:hover > a {
-  border-top: 1px solid #e8e8e8;
-  padding: 5px 10px !important;
+  /*border-top: 1px solid #e8e8e8;*/
+  padding: 2px 0px !important;
   background-color: #fff !important;
   color: #1d943b !important;
+  border-left:2px solid #fff;
 }
 ul.page-sidebar-menu > li.active > a .selected {
   right:-7px;
@@ -89,9 +90,10 @@ ul.page-sidebar-menu > li.active i {
 }
 ul.page-sidebar-menu > li.active > a{
   border-top-color: transparent !important;
-  padding: 5px 10px !important;
-  background-color: #28b779 !important;
-  color: #fff !important;
+  padding: 2px 0px !important;
+  background-color: none !important;
+  color: #28b779 !important;
+  border-left:2px solid !important;
 }  
 ul.page-sidebar-menu > li.active > a i {
   color: #fff;
@@ -281,6 +283,7 @@ Gritter Notifications
 @media (min-width: 980px) {
   .page-boxed {
     background-color: #F7F7F7 !important;
+    background-color: #FFFFFF !important;
   }
   .page-boxed .page-container {
     border-left: 1px solid #e2e2e2;
@@ -289,10 +292,10 @@ Gritter Notifications
   .page-boxed.page-sidebar-fixed .page-container {
     border-left: 0;
     border-bottom: 0;
-	box-shadow:0px 0px 2px #999999;
+	/*box-shadow:0px 0px 2px #999999;*/
   }
   .page-boxed.page-sidebar-fixed .page-sidebar {
-    border-left: 1px solid #e2e2e2;
+    /*border-left: 1px solid #e2e2e2;*/
   }
   .page-boxed.page-sidebar-fixed.page-footer-fixed .footer {
     background-color: #3d3d3d !important;

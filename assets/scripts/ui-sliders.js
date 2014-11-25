@@ -8,29 +8,30 @@ var UISliders = function () {
 
             // snap inc
             $("#slider-snap-inc").slider({
-                value: 100,
+                range:true,
                 min: 0,
-                max: 1000,
-                step: 100,
+                max: 23,
+				values: [8, 16],
+                step: 1,
                 slide: function (event, ui) {
-                    $("#slider-snap-inc-amount").text("$" + ui.value);
+                    $("#slider-snap-inc-amount").text(parseFloat(Math.round(ui.values[0] * 100) / 100).toFixed(2) + " - " + parseFloat(Math.round(ui.values[1] * 100) / 100).toFixed(2));
                 }
             });
 
-            $("#slider-snap-inc-amount").text("$" + $("#slider-snap-inc").slider("value"));
+            $("#slider-snap-inc-amount").text( $("#slider-snap-inc").slider("values",0).toFixed(2) + ' - ' + $("#slider-snap-inc").slider("values",1).toFixed(2));
 
             // range slider
             $("#slider-range").slider({
                 range: true,
-                min: 0,
-                max: 500,
-                values: [75, 300],
+                min: 7,
+                max: 40,
+                values: [17, 30],
                 slide: function (event, ui) {
-                    $("#slider-range-amount").text("$" + ui.values[0] + " - $" + ui.values[1]);
+                    $("#slider-range-amount").text(ui.values[0] + " th - " + ui.values[1] + " th");
                 }
             });
 
-            $("#slider-range-amount").text("$" + $("#slider-range").slider("values", 0) + " - $" + $("#slider-range").slider("values", 1));
+            $("#slider-range-amount").text( $("#slider-range").slider("values", 0) + " th - " + $("#slider-range").slider("values", 1) + " th");
 
             //range max
 

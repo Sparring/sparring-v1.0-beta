@@ -20,6 +20,11 @@
 	<link href="<?php echo base_url() ?>assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo base_url() ?>assets/css/pages/profile.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/plugins/chosen-bootstrap/chosen/chosen.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/plugins/select2/select2_metro.css" />
+    <link href="<?php echo base_url() ?>assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>	assets/plugins/bootstrap-datepicker/css/datepicker.css" />
+
+
 
 	<!-- END GLOBAL MANDATORY STYLES -->
 	<link rel="shortcut icon" href="favicon.ico" />
@@ -285,95 +290,165 @@
 				<!-- BEGIN SIDEBAR MENU -->        
 				<ul class="page-sidebar-menu">
 					<li>
+                    	<br>	
 						<!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
-						<form class="sidebar-search">
-							<div class="input-box">
-								<a href="javascript:;" class="remove"></a>
-								<input type="text" placeholder="Search..." />
-								<input type="button" class="submit" value=" " />
-							</div>
-						</form>
+                        <div class="input-icon left" >
+                        	<i class="icon-hospital" style="color:#FFF !important"></i>
+                            <div class="row-fluid">
+                            <select id="select2_sample1" class="select2 span12 orange">
+                                <option value="Yogyakarta" selected>Yogyakarta</option>
+                                <option value="Denpasar">Denpasar</option>
+                            </select>
+                            </div>
+						</div>
 						<!-- END RESPONSIVE QUICK SEARCH FORM -->
 					</li>
-                                        <li class="active">
-                                            <a href="#" >Futsal</a>
-                                            <ul class="sub-menu" >
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Tantangan Terbuka</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Papan Pengumuman</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Venue</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Tabel Peringkat</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Kegiatan</a>
-                                                </li>
-                                            </ul>
+                    <br>
+                    <!--<h3>Olahraga</h3>-->
+                    <li class="active">
+                        <a href="#" ><i class="icon-dribble" style="color:#28b779 !important"></i> Futsal</a>
+                        <ul class="sub-menu" >
+                            <li class="active">
+                                <a href="layout_horizontal_sidebar_menu.html">Tantangan Terbuka</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Papan Pengumuman</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Venue</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Tabel Peringkat</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Kegiatan</a>
+                            </li>
+                        </ul>
 					</li>
-                                        <li class="">
-                                            <a href="#" >Sepakbola</a>
-                                            <ul class="sub-menu" >
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Tantangan Terbuka</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Papan Pengumuman</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Venue</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Tabel Peringkat</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Kegiatan</a>
-                                                </li>
-                                            </ul>
+                    <li class="">
+                        <a href="#" ><i class="icon-trophy" style="color:#28b779 !important"></i>  Sepakbola</a>
+                        <ul class="sub-menu" >
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Tantangan Terbuka</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Papan Pengumuman</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Venue</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Tabel Peringkat</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Kegiatan</a>
+                            </li>
+                        </ul>
 					</li>
-                                        <li class="">
-                                            <a href="#">Bulutangkis</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Tantangan Terbuka</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Papan Pengumuman</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Venue</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Tabel Peringkat</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Kegiatan</a>
-                                                </li>
-                                            </ul>
+                    <li class="">
+                        <a href="#"><i class="icon-heart" style="color:#28b779 !important"></i>  Bulutangkis</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Tantangan Terbuka</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Papan Pengumuman</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Venue</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Tabel Peringkat</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Kegiatan</a>
+                            </li>
+                        </ul>
 					</li>
-                                        <li class="">
-                                            <a href="#" >Bola Basket</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Tantangan Terbuka</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Papan Pengumuman</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Venue</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Tabel Peringkat</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout_horizontal_sidebar_menu.html">Kegiatan</a>
-                                                </li>
-                                            </ul>
+                    <li class="">
+                        <a href="#" ><i class="icon-group" style="color:#28b779 !important"></i>  Bola Basket</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Tantangan Terbuka</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Papan Pengumuman</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Venue</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Tabel Peringkat</a>
+                            </li>
+                            <li>
+                                <a href="layout_horizontal_sidebar_menu.html">Kegiatan</a>
+                            </li>
+                        </ul>
+					</li>
+                    <li>
+                    	<div class="portlet box" style="border:none !important;">
+                        <div class="portlet-body">
+                    	<form class="horizontal-form">
+						<h3>Filter</h3>
+                        <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+                        <div class="control-group">
+                        	<!--<label class="control-label">Venue</label>-->
+                            <div class="controls">
+                                <div class="input-icon left">
+                                    <i class="icon-map-marker"></i>
+                                    <div class="row-fluid">
+                                    <select id="select2_sample1" class="select3 span12" placeholder="Venue">
+                                        <option value=""></option>
+                                        <option value="Yogyakarta">MU Futsal - Jl. Kusumangegara</option>
+                                        <option value="Denpasar">Pelle Futsal - Babarsari</option>
+                                        <option value="Denpasar">Jogja Land Futsal - Jl. Timoho</option>
+                                        <option value="Denpasar">Galaxy Futsal - Jl. Wonosari</option>
+                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                        	<!--<label class="control-label">Type</label>-->
+                            <div class="controls">
+                                <div class="input-icon left">
+                                    <i class="icon-hospital"></i>
+                                    <div class="row-fluid">
+                                    <select id="select2_sample1" class="select3 span12" placeholder="Type">
+                                        <option value=""></option>
+                                        <option value="Yogyakarta">50:50</option>
+                                        <option value="Denpasar">Kalah Bayar</option>
+                                        <option value="Denpasar">Reward</option>
+                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                        	<!--<label class="control-label">Tanggal</label>-->
+                            <div class="controls">
+                                <div class="input-icon left" >
+                                    <i class="icon-calendar"></i>
+                                    <input class="m-wrap span12 date-picker" readonly  type="text" value="" placeholder="Tanggal main" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                        	<label class="control-label">Rata-rata usia: <span id="slider-range-amount"></span></label>
+                            <div class="controls">
+                                <div id="slider-range" class="slider bg-grey"></div>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                        	<label class="control-label">Jam: <span id="slider-snap-inc-amount"></span></label>
+                            <div class="controls">
+                                <div id="slider-snap-inc" class="slider bg-grey"></div>
+                            </div>
+                        </div>
+                        </form>
+						</div>
+						</div>
+						<!-- END RESPONSIVE QUICK SEARCH FORM -->
 					</li>
 				</ul>
 				<!-- END SIDEBAR MENU -->
@@ -423,15 +498,40 @@
 	<![endif]-->        
 	<script src="<?php echo base_url() ?>assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="<?php echo base_url() ?>assets/plugins/chosen-bootstrap/chosen/chosen.jquery.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url() ?>assets/plugins/select2/select2.min.js"></script>
 
 	<script src="<?php echo base_url() ?>assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>  
 	<script src="<?php echo base_url() ?>assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
 	<script src="<?php echo base_url() ?>assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript" ></script>
+    <script src="<?php echo base_url() ?>assets/plugins/jquery-knob/js/jquery.knob.js"></script>
+	<script type="text/javascript" src="<?php echo base_url() ?>assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+
 	<!-- END CORE PLUGINS -->
-	<script src="<?php echo base_url() ?>assets/scripts/app.js"></script>      
+	<script src="<?php echo base_url() ?>assets/scripts/app.js"></script>  
+    <script src="<?php echo base_url() ?>assets/scripts/ui-sliders.js"></script>
+  
 	<script>
 		jQuery(document).ready(function() {    
 		   App.init();
+		   UISliders.initSliders();
+
+			
+		   $('.select2').select2({
+				allowClear: false,
+				background: 'green'
+			});
+			
+			$('.select3').select2({
+				allowClear: false,
+				background: 'grey'
+			});
+			
+			$( ".ui-date-picker" ).datepicker();
+			$('.date-picker').datepicker({
+				language: 'en',
+				rtl : App.isRTL()	
+			});
+			
 		});
 	</script>
 	<!-- END JAVASCRIPTS -->

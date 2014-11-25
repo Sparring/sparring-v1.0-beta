@@ -134,7 +134,7 @@ select:focus {
 .btn.orange {
   color: white;
   text-shadow: none;	 
-  background-color: #FF9900;
+  background-color: #f76b1e;
 }
 .btn.orange:hover, 
 .btn.orange:focus, 
@@ -142,7 +142,7 @@ select:focus {
 .btn.orange.active,
 .btn.orange.disabled, 
 .btn.orange[disabled]{ 
-  background-color: #FF6600 !important;
+  background-color: #e4641e !important;
   color: #fff !important;
 }
 
